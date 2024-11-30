@@ -11,29 +11,30 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A simple Dart package containing shared code between server and client in gmacgre's Dart Version of Twilight Imperium
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Contains data objects for the following items in an OOP Twilight Imperium Construction:
+
+- Game
+- Board
+- Player
+- Globals
+- Tile
+- Airspace
+- Planet
+
+It also contains the Request and Response Dart objects that are needed for client-server communication.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Import this package into your project, and use the data objects as needed.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
+Look man they're mainly POJOs. If it gets more complex then I'll modify this.
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+If you need any additional information, make an issue ticket and I might get to it.
