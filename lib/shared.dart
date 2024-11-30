@@ -4,5 +4,6 @@
 library;
 
 export 'src/model/player.dart';
+export 'src/model/game.dart';
 
 // TODO: Export any libraries intended for clients of this package.
