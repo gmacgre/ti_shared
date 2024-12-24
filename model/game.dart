@@ -1,4 +1,4 @@
-import 'package:shared/shared.dart';
+import 'player.dart';
 
 class Game {
   List<Player> players = [];

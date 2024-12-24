@@ -1,8 +1,8 @@
-import 'package:shared/src/model/action.dart';
-import 'package:shared/src/model/planet.dart';
-import 'package:shared/src/model/promissory.dart';
-import 'package:shared/src/model/secret_objective.dart';
-import 'package:shared/src/model/tech.dart';
+import 'action.dart';
+import 'planet.dart';
+import 'promissory.dart';
+import 'secret_objective.dart';
+import 'tech.dart';
 
 class Player {
   int seatNumber = -1;
