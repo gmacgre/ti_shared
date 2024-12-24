@@ -6,3 +6,7 @@
 
 - Initial version.
 - Add player.dart.
+
+## 1.1.0
+
+- Refactor into direct library files, not a package
