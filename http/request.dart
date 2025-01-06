@@ -1,4 +1,4 @@
 abstract class TIRequest {
-  String requestType = '';
-  TIRequest(this.requestType);
+  String type = '';
+  TIRequest(this.type);
 }

@@ -1,4 +1,4 @@
 abstract class TIResponse {
-  String reponseType = '';
-  TIResponse(this.reponseType);
+  String type = '';
+  TIResponse(this.type);
 }
