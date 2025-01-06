@@ -1,4 +1,5 @@
 abstract class TIRequest {
-  String type = '';
-  TIRequest(this.type);
+  String type;
+  String uuid;
+  TIRequest(this.type, this.uuid);
 }

@@ -1,21 +1,12 @@
-class LoginRequest {
-  String username = '';
-  String password = '';
-  String gameName = '';
-  String gamePassword = '';
+import '../request.dart';
 
-  LoginRequest();
-
-  LoginRequest.fromJson(Map<String, dynamic> json)
-    : username = json['username'],
-      password = json['password'],
-      gameName = json['gameName'],
-      gamePassword = json['gamePassword'];
-  
+class LoginRequest extends TIRequest {
+  LoginRequest(String uuid) : super('Login', uuid);
   Map<String, dynamic> toJson() => {
-    'username': username,
-    'password': password,
-    'gameName': gameName,
-    'gamePassword': gamePassword,
+    'type': type,
+    'uuid': uuid
   };
+  factory LoginRequest.fromJson(Map<String, dynamic> json) {
+    return LoginRequest(json['uuid']);
+  }
 }

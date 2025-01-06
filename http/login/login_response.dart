@@ -1,11 +1,13 @@
 import '../response.dart';
 
 class LoginResponse extends TIResponse {
-  LoginResponse(): super('Login');
+  LoginResponse(String uuid, bool isSuccess): super('Login', uuid, isSuccess);
   Map<String, dynamic> toJson() => {
     'type': type,
+    'uuid': uuid,
+    'isSuccess': isSuccess
   };
   factory LoginResponse.fromJson(Map<String, dynamic> json) {
-    return LoginResponse();
+    return LoginResponse(json['uuid'], json['isSuccess']);
   }
 }
