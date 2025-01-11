@@ -1,4 +1,4 @@
-import '../request.dart';
+import 'request.dart';
 
 class CreateRequest extends TIRequest {
   String userId;
