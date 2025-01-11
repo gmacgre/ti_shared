@@ -12,6 +12,8 @@ class LoginRequest extends TIRequest {
   @override
   Map<String, dynamic> toJson() {
     return {
+      'uuid': uuid,
+      'type': 'Create',
       'userId': userId,
       'userPassword': userPassword,
       'gameId': gameId,
