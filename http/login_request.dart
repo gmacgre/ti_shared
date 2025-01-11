@@ -13,7 +13,7 @@ class LoginRequest extends TIRequest {
   Map<String, dynamic> toJson() {
     return {
       'uuid': uuid,
-      'type': 'Create',
+      'type': 'Login',
       'userId': userId,
       'userPassword': userPassword,
       'gameId': gameId,
