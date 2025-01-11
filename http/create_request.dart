@@ -9,6 +9,7 @@ class CreateRequest extends TIRequest {
   factory CreateRequest.fromJson(Map<String, dynamic> json) {
     return CreateRequest(json['uuid'], json['userId'], json['userPassword'], json['gameId'], json['gamePassword']);
   }
+  @override
   Map<String, dynamic> toJson() {
     return {
       'userId': userId,
