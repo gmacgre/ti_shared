@@ -5,6 +5,7 @@ import 'secret_objective.dart';
 import 'tech.dart';
 
 class Player {
+  String username = '';
   int seatNumber = -1;
   String race = 'sol';
   int strategyCard = -1;
