@@ -1,7 +1,7 @@
 import 'request.dart';
 
 class ErrorRequest extends TIRequest {
-  ErrorRequest(String errorType, String uuid) : super(errorType, uuid);
+  ErrorRequest(super.errorType, super.uuid);
   @override
   Map<String, dynamic> toJson() {
     return {
