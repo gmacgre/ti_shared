@@ -57,7 +57,7 @@ enum SystemInfo {
 
 // Basic Data definitions for systems - DO NOT MODIFY
 class SystemData {
-  static final Map<SystemInfo,List<PlanetInfo>> planets = const {
+  static const Map<SystemInfo,List<PlanetInfo>> planets = const {
     // Non-Home Systems
     SystemInfo.mecatol:       [PlanetInfo.mecatol],
     SystemInfo.abyz:          [PlanetInfo.abyz, PlanetInfo.fria],
