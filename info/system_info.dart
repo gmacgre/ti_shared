@@ -6,6 +6,8 @@ enum SystemInfo {
   nebula,
   supernova,
   rift,
+  // Unused
+  unused,
 }
 
 class SystemData {
@@ -15,6 +17,7 @@ class SystemData {
     SystemInfo.nebula: [],
     SystemInfo.supernova: [],
     SystemInfo.rift: [],
+    SystemInfo.unused: []
   };
 
   static final Set<SystemInfo> anomalies = {

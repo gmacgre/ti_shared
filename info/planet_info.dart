@@ -1,5 +1,7 @@
 enum PlanetInfo {
-  jord
+  jord,
+  // Unused/Error
+  unused
 }
 
 class PlanetData {
